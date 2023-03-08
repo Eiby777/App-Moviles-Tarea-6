@@ -1,0 +1,40 @@
+
+.container {
+    margin: 0 auto; /* centra horizontalmente */
+    text-align: center; /* centra verticalmente */
+  }
+  .submit {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .submit:hover {opacity: 1}
+
+  .input{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  input[type="text"]::placeholder {
+    color: rgb(153, 153, 153);
+  }
